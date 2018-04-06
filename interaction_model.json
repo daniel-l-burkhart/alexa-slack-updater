@@ -1,0 +1,242 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "SlackClearStatusIntent",
+      "samples": [
+        "clear my status",
+        "empty my status"
+      ],
+      "slots": []
+    },
+    {
+      "name": "SlackStatusIntent",
+      "samples": [
+        "I'm {status} until {time} ",
+        "I am {status} until {time} ",
+        "Set my status to {status} until {time} ",
+        "Change my status to {status} until {time} "
+      ],
+      "slots": [
+        {
+          "name": "status",
+          "type": "Status",
+          "samples": []
+        },
+        {
+          "name": "time",
+          "type": "AMAZON.TIME",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "Status",
+      "values": [
+        {
+          "name": {
+            "value": "lunch"
+          }
+        },
+        {
+          "name": {
+            "value": "out for lunch"
+          }
+        },
+        {
+          "name": {
+            "value": "out to lunch"
+          }
+        },
+        {
+          "name": {
+            "value": "getting lunch"
+          }
+        },
+        {
+          "name": {
+            "value": "grabbing lunch"
+          }
+        },
+        {
+          "name": {
+            "value": "eating lunch"
+          }
+        },
+        {
+          "name": {
+            "value": "coffee"
+          }
+        },
+        {
+          "name": {
+            "value": "getting coffee"
+          }
+        },
+        {
+          "name": {
+            "value": "out for coffee"
+          }
+        },
+        {
+          "name": {
+            "value": "grabbing coffee"
+          }
+        },
+        {
+          "name": {
+            "value": "busy"
+          }
+        },
+        {
+          "name": {
+            "value": "unavailable"
+          }
+        },
+        {
+          "name": {
+            "value": "DND"
+          }
+        },
+        {
+          "name": {
+            "value": "do not disturb"
+          }
+        },
+        {
+          "name": {
+            "value": "head down"
+          }
+        },
+        {
+          "name": {
+            "value": "errand"
+          }
+        },
+        {
+          "name": {
+            "value": "running errands"
+          }
+        },
+        {
+          "name": {
+            "value": "running an errand"
+          }
+        },
+        {
+          "name": {
+            "value": "doctor"
+          }
+        },
+        {
+          "name": {
+            "value": "at the doctor"
+          }
+        },
+        {
+          "name": {
+            "value": "at a doctor's appointment"
+          }
+        },
+        {
+          "name": {
+            "value": "doctor's appointment"
+          }
+        },
+        {
+          "name": {
+            "value": "away"
+          }
+        },
+        {
+          "name": {
+            "value": "away from keyboard"
+          }
+        },
+        {
+          "name": {
+            "value": "AFK"
+          }
+        },
+        {
+          "name": {
+            "value": "call"
+          }
+        },
+        {
+          "name": {
+            "value": "in a call"
+          }
+        },
+        {
+          "name": {
+            "value": "on a call"
+          }
+        },
+        {
+          "name": {
+            "value": "meeting"
+          }
+        },
+        {
+          "name": {
+            "value": "in a meeting"
+          }
+        },
+        {
+          "name": {
+            "value": "sick"
+          }
+        },
+        {
+          "name": {
+            "value": "out sick"
+          }
+        },
+        {
+          "name": {
+            "value": "sick leave"
+          }
+        },
+        {
+          "name": {
+            "value": "commuting"
+          }
+        },
+        {
+          "name": {
+            "value": "commuting in"
+          }
+        },
+        {
+          "name": {
+            "value": "vacation"
+          }
+        },
+        {
+          "name": {
+            "value": "on vacation"
+          }
+        },
+        {
+          "name": {
+            "value": "out on vacation"
+          }
+        }
+      ]
+    }
+  ]
+}
