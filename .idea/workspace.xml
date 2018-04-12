@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902b5eed-e4d2-4774-9c10-4c7cb6d4266a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interaction_model.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="462" column="41" lean-forward="true" selection-start-line="462" selection-start-column="41" selection-end-line="462" selection-end-column="41" />
+            <state relative-caret-position="580">
+              <caret line="235" column="23" lean-forward="true" selection-start-line="235" selection-start-column="23" selection-end-line="235" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -113,12 +112,13 @@
       <workItem from="1523295851243" duration="2949000" />
       <workItem from="1523309621918" duration="215000" />
       <workItem from="1523407243447" duration="6253000" />
-      <workItem from="1523479688952" duration="459000" />
+      <workItem from="1523479688952" duration="578000" />
+      <workItem from="1523567182004" duration="899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11825000" />
+    <option name="totallyTimeSpent" value="12843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="23" width="1400" height="987" extended-state="0" />
@@ -153,6 +153,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6975">
+          <caret line="465" column="38" selection-start-line="465" selection-start-column="38" selection-end-line="465" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7065">
           <caret line="471" column="25" lean-forward="true" selection-start-line="471" selection-start-column="25" selection-end-line="471" selection-end-column="25" />
         </state>
@@ -181,8 +188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="462" column="41" lean-forward="true" selection-start-line="462" selection-start-column="41" selection-end-line="462" selection-end-column="41" />
+        <state relative-caret-position="580">
+          <caret line="235" column="23" lean-forward="true" selection-start-line="235" selection-start-column="23" selection-end-line="235" selection-end-column="23" />
         </state>
       </provider>
     </entry>

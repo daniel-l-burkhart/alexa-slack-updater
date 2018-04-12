@@ -33,8 +33,7 @@ function launchRequestHandler() {
 
 
 /**
- * Handles an `SlackClearStatusIntent`, which should clear the user's status
- * and snooze setting.
+ * Handles the `SlackClearStatusIntent`, which will "unsnooze" and clear user's status.
  */
 function clearStatusIntentHandler() {
     let access_token = this.event.session.user.accessToken;
@@ -64,24 +63,6 @@ function clearStatusIntentHandler() {
  * Handles slack status intent, setting profile and snoozing notifications
  */
 function statusIntentHandler() {
-
-    try {
-        let consentTokenTest = this.event.context.System.user.permissions.consentToken;
-        let deviceIdTest = this.event.context.System.device.deviceId;
-
-        if (!consentTokenTest || !deviceIdTest) {
-            throw("User did not give us permissions to access their address.");
-        }
-
-        console.log(JSON.stringify(this.event));
-
-    } catch (e) {
-
-        console.log(JSON.stringify(this.event));
-        console.error(e);
-        console.info("Ending getAddressHandler()");
-        return;
-    }
 
     let device_id = this.event.context.System.device.deviceId;
     let consent_token = this.event.context.System.user.permissions.consentToken;
